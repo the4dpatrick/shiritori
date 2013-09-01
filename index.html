@@ -8,11 +8,33 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<h1>尻取り：言葉遊び</h1>
-		<p>まず参加者のうちの一人が、最初に適当な単語を言う（最初に言う単語は「しりとり」とするルールもある）。以降の人は順番に、前の人が言った単語の最後の文字（つまり『尻』である）から始まる単語を言っていく。
 
-日本語には「ん」で始まる単語がほぼ皆無であるため、通常は「ん」で終わる単語を言ってしまうと負けになる。ただし、外来語や固有名詞も含めると「ん」から始まる言葉は決して皆無ではないため、稀に変則的なルールとして「ん」から始まる言葉を可とすることもある（ただし「ん」で終わる単語を言った側が負けて勝負が決まるため、「ん」で始まる単語でしりとりを続ける必要も無い）。</p>
+		<div id="main" class="col-md-12">
+			<h1 class="text-center">尻取り：言葉遊び</h1>
+			<p class="col-md-6 col-md-offset-3">まず参加者のうちの一人が、最初に適当な単語を言う（最初に言う単語は「しりとり」とするルールもある）。以降の人は順番に、前の人が言った単語の最後の文字（つまり『尻』である）から始まる単語を言っていく。
 
+	日本語には「ん」で始まる単語がほぼ皆無であるため、通常は「ん」で終わる単語を言ってしまうと負けになる。ただし、外来語や固有名詞も含めると「ん」から始まる言葉は決して皆無ではないため、稀に変則的なルールとして「ん」から始まる言葉を可とすることもある（ただし「ん」で終わる単語を言った側が負けて勝負が決まるため、「ん」で始まる単語でしりとりを続ける必要も無い）。</p>
+			<div class="container">
+				<div class="col-md-3 col-md-offset-3">
+					<label>Enter word</label>
+					<input type="text-field"></input>
+				</div>
+				<div class="col-md-3">
+					<p>しりとり</p>
+				</div>
+			</div>
+		</div>
+		<div id="word-info" class="col-md-12">
+			<div class="col-md-9 col-md-offset-3">
+				<h2>Kanji</h2>
+				<p>Word</p>
+				<p>Meaning</p>
+				<p>Japanese Sentence</p>
+				<p>English Sentence</p>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>

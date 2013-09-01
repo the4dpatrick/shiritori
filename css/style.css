@@ -1,0 +1,14 @@
+#word-info {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    color: white;
+}
+
+#main .container > div {
+
+    background: blue;
+    height: 300px;
+    color: white;
+	
+}
